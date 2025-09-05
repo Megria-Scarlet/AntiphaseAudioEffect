@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0-windows10.0.19041.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Authors>Megria</Authors>
+    <Version>1.2.0</Version>
+    <AssemblyName>AntiphaseAudioEffect</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="YukkuriMovieMaker.Controls">
+      <HintPath>C:\Users\Megria\UserProgram\ゆっくりMovieMaker4\YukkuriMovieMaker_v4\YukkuriMovieMaker.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="YukkuriMovieMaker.Plugin">
+      <HintPath>C:\Users\Megria\UserProgram\ゆっくりMovieMaker4\YukkuriMovieMaker_v4\YukkuriMovieMaker.Plugin.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
